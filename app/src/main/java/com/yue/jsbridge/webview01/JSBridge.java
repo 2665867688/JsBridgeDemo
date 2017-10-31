@@ -22,7 +22,7 @@ public class JSBridge {
     private ArrayMap<String, Class<? extends IInject>> mClassMap = new ArrayMap<>();
 
     private JSBridge() {
-        //添加一个调用类 注意map的key值
+        //添加一个调用类 注意map的key值 ，正式使用时请删除这儿的注册，在需要的代码里通过addInjectPair方法进行注册方法接口类
         mClassMap.put(BRIDGE_NAME, JSLogical.class);
     }
 
