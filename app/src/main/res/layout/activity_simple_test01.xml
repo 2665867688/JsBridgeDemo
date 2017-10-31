@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yue.jsbridge.activity.SimpleTest01Activity">
+
+    <TextView
+        android:id="@+id/tv_simple01_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="参数显示"/>
+    <com.tencent.smtt.sdk.WebView
+        android:id="@+id/webview_simple01_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
